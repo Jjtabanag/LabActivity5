@@ -2,7 +2,7 @@ package SimpleCalc;
 
 import javax.swing.*;
 
-public class SimpleCalcGUI {
+public class SimpleCalculator {
     private JPanel panel1;
     private JTextField textField1;
     private JComboBox comboBox1;
