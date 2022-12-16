@@ -22,6 +22,7 @@ public class FoodOrderingSystem extends JFrame {
     private JButton btnOrder;
     private static final DecimalFormat df = new DecimalFormat("0.00");
 
+
     public FoodOrderingSystem() {
         btnOrder.addActionListener(new ActionListener() {
             @Override
@@ -84,6 +85,7 @@ public class FoodOrderingSystem extends JFrame {
     public static void main(String[] args) {
         FoodOrderingSystem app = new FoodOrderingSystem();
         app.setContentPane(app.jpanel);
+        app.setTitle("Food Ordering System");
         app.setSize(600,700);
         app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         app.setVisible(true);
