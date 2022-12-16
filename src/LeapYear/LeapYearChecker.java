@@ -14,12 +14,14 @@ public class LeapYearChecker extends JFrame {
     }
 
     public static void main(String[] args) {
+
         LeapYearChecker app = new LeapYearChecker();
         app.setContentPane(app.jpanel);
         app.setTitle("Leap Year Checker");
         app.setSize(500,500);
         app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         app.setVisible(true);
+
     }
 
     public class CheckButton implements ActionListener, KeyListener {
