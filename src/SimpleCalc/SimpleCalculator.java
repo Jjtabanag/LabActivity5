@@ -68,11 +68,13 @@ public class SimpleCalculator extends JFrame {
     }
 
     public static void main(String[] args) {
+
         SimpleCalculator app = new SimpleCalculator();
         app.setContentPane(app.jpanel);
         app.setTitle("Simple Calculator");
         app.setSize(630, 600);
         app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         app.setVisible(true);
+
     }
 }
