@@ -106,9 +106,12 @@
                   </grid>
                 </constraints>
                 <properties>
+                  <background color="-12500415"/>
                   <editable value="false"/>
                   <enabled value="true"/>
-                  <font size="16"/>
+                  <font size="16" style="1"/>
+                  <foreground color="-6577477"/>
+                  <horizontalAlignment value="0"/>
                 </properties>
               </component>
             </children>
