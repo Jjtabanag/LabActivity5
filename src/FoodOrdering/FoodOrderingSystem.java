@@ -38,7 +38,7 @@ public class FoodOrderingSystem extends JFrame {
                 try {
                     int ctr = 0;
                     for (JCheckBox cb : foods) {
-                        if (cb.isSelected()) {
+                    if (cb.isSelected()) {
                             double price = Double.parseDouble(cb.getName());
                             total += price;
                             ctr++;
